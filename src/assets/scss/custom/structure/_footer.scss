@@ -1,0 +1,9 @@
+.footer {
+  position: absolute;
+  bottom: 18px;
+  right: 0;
+  color: $dark;
+  @media (max-width: 991.98px) {
+    left: 0;
+  }
+}

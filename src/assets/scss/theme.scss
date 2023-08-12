@@ -1,0 +1,11 @@
+@import "./icons.scss";
+@import "./bootstrap.scss";
+@import "./app.scss";
+@import "./custom/fonts/fonts";
+
+body {
+  * {
+    outline: none;
+    font-family: $type1;
+  }
+}

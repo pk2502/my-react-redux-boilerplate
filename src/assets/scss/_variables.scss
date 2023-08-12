@@ -1,0 +1,71 @@
+$blue: #5e50f9;
+$indigo: #6610f2;
+$purple: #6a008a;
+$pink: #e91e63;
+$red: #f96868;
+$orange: #f2a654;
+$yellow: #f6e84e;
+$green: #46c35f;
+$teal: #58d8a3;
+$cyan: #57c7d4;
+
+$white: #fff;
+$gray-100: #212529;
+$gray-200: #2a3042;
+$gray-300: #32394e;
+$gray-400: #a6b0cf;
+$gray-500: #bfc8e2;
+$gray-600: #c3cbe4;
+$gray-700: #f6f6f6;
+$gray-800: #eff2f7;
+$gray-900: #f8f9fa;
+$black: #000;
+
+$primary: $blue;
+$secondary: $gray-600;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: #fbfbfb;
+$dark: #332d2d;
+
+$theme-colors: (
+  primary: $blue,
+  secondary: $gray-600,
+  success: $green,
+  info: $cyan,
+  warning: $yellow,
+  danger: $red,
+  light: $light,
+  dark: $dark,
+);
+
+$box-shadow: 20px 19px 34px -15px rgba(0, 0, 0, 0.5);
+
+// Structure
+$grid-gutter-width: 1.5rem;
+
+// Font
+$type1: "Rubik", sans-serif;
+$default-font-size: 0.875rem;
+
+// Header Styles
+$header-light-bg: $light;
+$header-dark-bg: $dark;
+$header-height: 70px;
+
+// Sidebar Styles
+$sidebar-width: 244px;
+$sidebar-collapsed-width: 70px;
+$sidebar-dark-bg: $header-dark-bg;
+$sidebar-light-bg: $header-light-bg;
+$vertical-menu-btn-light-color: $light;
+$vertical-menu-btn-dark-color: $dark;
+$navbar-brand-box-width: $sidebar-width;
+$sidebar-menu-active-bg: darken($sidebar-dark-bg, 5%);
+$sidebar-menu-item-color: #6c7293;
+$sidebar-menu-sub-item-color: $white;
+$sidebar-menu-item-icon-bg: rgba(108, 114, 147, 0.2);
+$sidebar-menu-item-icon-color: $white;
+$sidebar-menu-item-hover-color: $white;
